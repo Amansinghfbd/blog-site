@@ -1,0 +1,83 @@
+.Article1-container {
+  height: 500px;
+  width: 100%;
+  background-color: rgba(157, 204, 255, 0.2);
+  display: flex;
+  gap: 30px;
+}
+
+.Article1-container__div1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 90px;
+}
+
+.Article1-container__div1--text1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 50px;
+}
+
+.Article1-container__div1__text1--span {
+  color: #49bbbd;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Article1-container__div1--text2 {
+  color: #2f327d;
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 24px;
+}
+
+.Article1-container__div1--text3 {
+  color: #696984;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 43.2px */
+  letter-spacing: 0.48px;
+  margin-top: 14px;
+}
+
+.Article1-container__div1--btn {
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #49bbbd;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  width: 250px;
+  height: 45px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.Article1-container__div2 {
+  padding: 25px;
+  padding-right: 50px;
+  width: 50%;
+}
+
+.Article1-container__div2--laptopimg {
+  width: 100%;
+  height: 90%;
+  margin-top: 20px;
+}

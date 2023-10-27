@@ -1,0 +1,96 @@
+.navbar {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 30px 80px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+
+.navbar__navbar1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__navbar2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar__logo--logogroup {
+  position: relative;
+}
+
+.navbar__logo__logogroup--polygon {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+
+.navbar__logo__logogroup--text {
+  color: #5b5b5b;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: normal;
+  letter-spacing: 1.28px;
+  position: absolute;
+  top: 15px;
+  left: 18px;
+}
+
+.text-1 {
+  color: #5b5b5b;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.44px;
+  height: 33px;
+}
+
+.navbar__navbar2--link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar__navbar2--image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.navbar__navbar2__image--img {
+  border-radius: 60px;
+  height: 60px;
+  width: 60px;
+}
+
+.navbar__navbar2__image--text-2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  height: 27px;
+  width: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar__navbar2__image--downicon {
+  width: 12px;
+  height: 12px;
+}

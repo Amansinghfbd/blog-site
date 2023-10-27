@@ -1,0 +1,149 @@
+.container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__header {
+  display: flex;
+  width: 95%;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container__header1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
+
+.container__header2 {
+  color: #49bbbd;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__card--box {
+  width: 20%;
+  border-radius: 20px;
+  background: #fff;
+  margin-left: 20px;
+  padding: 10px;
+  box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+}
+
+.container__card--image {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.container__card--caption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.container__card--caption--inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.container__card--caption--text {
+  color: #696984;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 180%; 
+  letter-spacing: 0.28px;
+}
+
+.container__card--title {
+  color: #252641;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.container__card--body {
+  color: #696984;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; 
+  letter-spacing: 0.36px;
+  margin: 20px 0px;
+}
+
+.container__card--footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.container__card--logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.container__card__logo--name {
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.36px;
+}
+
+.container__card--price {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.container__card--price1 {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  text-decoration: line-through;
+}
+
+.container__card--price2 {
+  color: #49bbbd;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}

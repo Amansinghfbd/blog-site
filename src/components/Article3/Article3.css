@@ -1,0 +1,207 @@
+.Article4-container {
+  width: 100%;
+  height: 900px;
+  background-color: rgba(157, 204, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Article4-container__title {
+  width: 95%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.Article4-container__title1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
+
+.Article4-container__title2 {
+  color: #49bbbd;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Article4-container__content {
+  height: 600px;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.Article4-container__content::-webkit-scrollbar {
+  width: 0;
+}
+
+.Article4-container__content--card {
+  position: relative;
+  flex: none;
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  width: 45%;
+  margin: 0px 2.5%;
+  transition: 0.4s;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.1);
+}
+
+.button-wrapper {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Article4-container__content__card--inner {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 50px 30px;
+}
+
+.Article4-container__content__card__inner--title {
+  color: #252641;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 180%;
+  margin-right: 30px;
+}
+
+.Article4-container__content__card__inner--img {
+  width: 100%;
+  height: 100%;
+}
+
+.Article4-container__content__card__inner--logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 100%;
+  padding-left: 10%;
+}
+
+.Article4-container__content__card__inner--logo-text {
+  color: #000;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.36px;
+}
+
+.Article4-container__content__card__inner--logo1 {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.button-wrapper__btn--left {
+  background-color: #49bbbd80;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px;
+  color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+}
+
+.button-wrapper__btn--right {
+  background-color: #49bbbd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px;
+  color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+}
+
+.button-wrapper__btn--left:hover {
+  cursor: pointer;
+}
+
+.button-wrapper__btn--right:hover {
+  cursor: pointer;
+}
+
+.Article4-container__content__card__inner--view {
+  color: #696984;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; 
+  letter-spacing: 0.4px;
+}
+
+.Article4-container__content__card__inner--body {
+  color: #696984;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; 
+  letter-spacing: 0.4px;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+.Article4-container__content__card__inner--footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.button-wrapper {
+  padding-right: 40px;
+}
+
+.Article4-container__content__card__inner__footer--Review {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.Article4-container__content__card__inner__footer--text {
+  color: #696984;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; 
+  letter-spacing: 0.4px;
+  text-decoration-line: underline;
+}

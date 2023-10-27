@@ -1,0 +1,133 @@
+.blog-container {
+  width: 100%;
+  height: 980px;
+}
+
+.blog-container__image {
+  width: 100%;
+  height: 400px;
+}
+
+.blog-container__title {
+  color: #2f327d;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; 
+  padding-left: 80px;
+  padding-top: 60px;
+}
+
+.blog-container__paragraph {
+  color: #696984;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; 
+  letter-spacing: 0.48px;
+}
+
+.blog-container__paragraph p {
+  margin: 30px;
+  margin-top: 10px;
+  padding: 0px 50px;
+}
+
+.blog-container__tags {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-left: 80px;
+}
+
+.blog-container__tags--tag {
+  color: #696984;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 36px;
+  padding: 8px 28px;
+  background: rgba(73, 187, 189, 0.1);
+}
+
+.blog-container__line {
+  background: #696984;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1px;
+  width: 88%;
+  margin: 10px 0px;
+  margin-left: 80px;
+}
+
+.blog-container__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px;
+}
+
+.blog-container__footer1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.blog-container__footer--img {
+  border-radius: 6px;
+  height: 40px;
+  width: 40px;
+}
+
+.blog-container__footer--text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.blog-container__footer--text1 {
+  color: #696984;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.24px;
+}
+
+.blog-container__footer--text2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.36px;
+}
+
+.blog-container__footer2 {
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+}
+
+.blog-container__footer2--btn {
+  color: #49bbbd;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 10px;
+  border: 1px solid #49bbbd;
+  background-color: #fff;
+  padding: 5px 60px;
+  outline: none;
+  cursor: pointer;
+}
